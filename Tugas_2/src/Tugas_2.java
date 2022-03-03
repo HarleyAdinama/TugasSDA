@@ -56,7 +56,7 @@ public class Tugas_2 {
         System.out.println("Nama Saya Sekarang : "+saya);
         System.out.println("----------------\n");
 
-        System.out.println("Instruksi 2 - Hapus karakter");
+        System.out.println("Instruksi 3 - Hapus karakter");
         //Hapus beberapa karakter
         saya.removeFirst();
         saya.removeLast();
