@@ -75,7 +75,7 @@ public class Tugas_2 {
         //Membuat scanner untuk pilih menu
         try (Scanner input = new Scanner(System.in)) {
             //Masukan data yang akan dioperasikan
-            System.out.println("Masukan elemen : ");
+            System.out.printf("Masukan elemen : ");
             String tempData = input.nextLine();
 
             //Membuat pilihan menu dan membuat fungsi pop dan push
@@ -84,11 +84,11 @@ public class Tugas_2 {
             System.out.println("2. Fungsi Pop");
             System.out.println("3. Exit");
 
-            System.out.println("Menu dipilih : ");
+            System.out.printf("Menu dipilih : ");
             int menu = input.nextInt();
             switch (menu) {
                 case 1:
-                    System.out.println("Pada index ke : ");
+                    System.out.printf("Pada index ke : ");
                     int indexData = input.nextInt();
 
                     saya.add(indexData, tempData);
